@@ -4,8 +4,8 @@
 
 ### Search Functionality
 - The list will populate with the first page of the default beer list in alphanumeric order.
-- Scrolling to the bottom of the list will load more records. 
-- To run a search. Type a search term into the search field and press enter or click the "search Button"
+- Scrolling to the bottom of the list will load more records if available. 
+- To run a search: Type a search term into the search field and press enter or click the "search Button"
 
 
 ## Project Setup
