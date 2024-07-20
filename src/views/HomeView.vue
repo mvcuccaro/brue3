@@ -8,7 +8,7 @@
     <div>
       <breweries-results :items="cBreweries" @loadMore="handleLoadMore" />
     </div>
-    <div class="text-center">
+    <div class="text-center spinner-container">
       <div class="spinner-border" role="status" v-if="cLoading">
         <span class="visually-hidden">Loading...</span>
       </div>
@@ -55,3 +55,9 @@ onMounted(() => {
   fetchData({ limit: 50, page: page })
 })
 </script>
+
+<style scoped>
+.spinner-container {
+  min-height:30px;
+}
+</style>

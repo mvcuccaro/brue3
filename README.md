@@ -1,10 +1,12 @@
-# brewhaus
+# Brewery Search
 
-Brewery Search Prototype
+#### Brewery Search Prototype [Tested on Google Chrome and Mozilla Firefox]
 
-## Customize configuration
+### Search Functionality
+- The list will populate with the first page of the default beer list in alphanumeric order.
+- Scrolling to the bottom of the list will load more records. 
+- To run a search. Type a search term into the search field and press enter or click the "search Button"
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
